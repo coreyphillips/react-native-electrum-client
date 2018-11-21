@@ -1,0 +1,5 @@
+#!/bin/bash
+      # Helper script for Gradle to call node on macOS in case it is not found
+      export PATH=$PATH:/Users/coreyphillips/Desktop/ReactNativeElectrumClient/node_modules/nodejs-mobile-react-native/node_modules/.bin:/Users/coreyphillips/.config/yarn/link/node_modules/.bin:/Users/coreyphillips/Desktop/ReactNativeElectrumClient/node_modules/nodejs-mobile-react-native/node_modules/.bin:/Users/coreyphillips/.config/yarn/link/node_modules/.bin:/Users/coreyphillips/.nmv/versions/node/v8.11.1/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/coreyphillips/.nmv/versions/node/v8.11.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/coreyphillips/.nmv/versions/node/v8.11.1/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/opt/openssl/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Users/coreyphillips/.nmv/versions/node/v8.11.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/Users/coreyphillips/Library/Android/sdk//tools:/Users/coreyphillips/Library/Android/sdk//platform-tools:/usr/local/bin:/Users/coreyphillips/gocode/bin:/Users/coreyphillips/.rvm/bin
+      node $@
+    

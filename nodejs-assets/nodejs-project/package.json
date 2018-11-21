@@ -1,0 +1,16 @@
+{
+  "//": [
+    "Rename this sample file to package.json to use on your project.",
+    "The sample-package.json file will be overwritten in updates/reinstalls."
+  ],
+  "version": "0.0.1",
+  "description": "node part of the project",
+  "main": "main.js",
+  "author": "janeasystems",
+  "license": "",
+  "dependencies": {
+    "bitcoinjs-lib": "^4.0.2",
+    "electrum-client": "0.0.6",
+    "electrum-host-parse": "^0.1.1"
+  }
+}
